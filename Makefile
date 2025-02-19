@@ -1,2 +1,2 @@
 build:
-	docker build . -t mercureimaging/mercure-monaisegment:latest
+	docker build . -t enjoimark/mercure-monaiprostate:latest
