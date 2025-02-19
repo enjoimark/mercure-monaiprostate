@@ -6,7 +6,7 @@ FROM continuumio/miniconda3
 #-must conform to MONAI bundle spec 
 #-must be a segmentation model
 #-preprocessing / transforms will may need to be added prior to inference operator in seg_app
-ENV MONAI_BUNDLE_URL="https://github.com/Project-MONAI/model-zoo/releases/download/hosting_storage_v1/spleen_ct_segmentation_v0.3.8.zip"
+ENV MONAI_BUNDLE_URL="https://github.com/Project-MONAI/model-zoo/releases/download/hosting_storage_v1/prostate_mri_anatomy_v0.3.2.zip"
 
 RUN mkdir -m777 /app
 WORKDIR /app
